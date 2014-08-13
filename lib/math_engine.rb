@@ -1,5 +1,9 @@
 class MathEngine
 
+  def initialize
+
+  end
+
   def reverse_numeral_array(romannumeralarray )
     reversedarray = romannumeralarray
     reversedarray.reverse!
@@ -30,6 +34,7 @@ class MathEngine
     processingarray = reverse_numeral_array(array)
     processingarray = translate_numerals(processingarray)
     total = calculate_total(processingarray)
+    total
   end
 
   private

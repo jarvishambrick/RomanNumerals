@@ -15,5 +15,5 @@
 /log/*.log
 /tmp
 
-#ignore .idea files
-.idea/
+
+.idea/*
